@@ -34,17 +34,12 @@ $ ./metrics mem
 
 Sample output:
 
-virtual total 16712351744
-
-virtual used 9190146048
-
-virtual free 1391624192
-
-virtual shared 287655116
-
-swap total 0
-
-swap used 0
-
-
-swap free 0
+<pre>
+virtual total 6235820032
+virtual used 4509483008
+virtual free 1018150912
+virtual shared 193212416
+swap total 2147479552
+swap used 1740783616
+swap free 406695936
+</pre>
