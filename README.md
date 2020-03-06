@@ -17,18 +17,14 @@ $ ./metrics cpu
 
 
 Sample output:
-
-system.cpu.idle 78.8
-
-system.cpu.user 17.3
-
+<pre>
+system.cpu.idle 97.9
+system.cpu.user 1.0
 system.cpu.guest 0.0
-
-system.cpu.iowait 1.3
-
+system.cpu.iowait 0.0
 system.cpu.stolen 0.0
-
-system.cpu.system 2.5
+system.cpu.system 1.0
+</pre>
 
 
 Memory Metrics
