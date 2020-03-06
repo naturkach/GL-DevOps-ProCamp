@@ -10,7 +10,7 @@ arg = str(sys.argv[1])
 
 
 if (arg=='cpu'):
-    cpu_param = psutil.cpu_times(percpu=False)
+    cpu_param = psutil.cpu_times_percent(interval=1.0,percpu=False)
     print ('system.cpu.idle',  cpu_param.idle)
     print ('system.cpu.user',  cpu_param.user)
     print ('system.cpu.guest', cpu_param.guest)
