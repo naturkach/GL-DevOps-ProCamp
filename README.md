@@ -45,11 +45,13 @@ swap free 406695936
 </pre>
 
 <hr>
-Docker
+<b>Docker</b>
 //download Dockerfile 
-wget https://github.com/naturkach/GL-DevOps-ProCamp/blob/master/Dockerfile
+     wget https://github.com/naturkach/GL-DevOps-ProCamp/blob/master/Dockerfile
 //and build container:
-$ sudo docker build -t metricsapp .
+     $ sudo docker build -t metricsapp .
 //run container:
+<pre>
 sudo docker run metricsapp mem -rm
 sudo docker run metricsapp cpu -rm
+</pre>
