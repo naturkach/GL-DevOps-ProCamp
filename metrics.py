@@ -4,7 +4,7 @@ import sys
 import psutil
 
 if len(sys.argv)<=1:
-    print("use arg: cpu|mem")
+    print("use argument: cpu|mem")
     exit(1)
 arg = str(sys.argv[1])
 
@@ -27,7 +27,6 @@ elif (arg=='mem'):
     print('swap total', mem_swap.total)
     print('swap used',  mem_swap.used)
     print('swap free',  mem_swap.free)
-    print(mem_swap)
 else:
-    print("use arg: cpu|mem")
+    print("use argument: cpu|mem")
     exit(1)
