@@ -43,3 +43,13 @@ swap total 2147479552
 swap used 1740783616
 swap free 406695936
 </pre>
+
+<hr>
+Docker
+//download Dockerfile 
+wget https://github.com/naturkach/GL-DevOps-ProCamp/blob/master/Dockerfile
+//and build container:
+$ sudo docker build -t metricsapp .
+//run container:
+sudo docker run metricsapp mem -rm
+sudo docker run metricsapp cpu -rm
