@@ -59,5 +59,7 @@ sudo docker run metricsapp mem -rm
 sudo docker run metricsapp cpu -rm
 </pre>
 
-*remove image
+*remove all
+<pre>
 sudo docker system prune -a
+</pre>
