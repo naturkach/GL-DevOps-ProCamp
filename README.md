@@ -50,7 +50,7 @@ swap free 406695936
 *download Dockerfile 
  <pre>wget https://raw.githubusercontent.com/naturkach/GL-DevOps-ProCamp/master/Dockerfile</pre>
 
-*and build container:
+*and build image:
 <pre>$ sudo docker build -t metricsapp .</pre>
 
 *run container:
@@ -58,3 +58,6 @@ swap free 406695936
 sudo docker run metricsapp mem -rm
 sudo docker run metricsapp cpu -rm
 </pre>
+
+*remove image
+sudo docker system prune -a
