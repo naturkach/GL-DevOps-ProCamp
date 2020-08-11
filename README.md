@@ -1,4 +1,6 @@
 # GL-DevOps-ProCamp
+#update: image size was redused from 891 to 198 MB !!
+
 task by GL DevOps ProCamp
 
 Metrics collection script
