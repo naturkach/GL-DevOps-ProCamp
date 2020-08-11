@@ -1,5 +1,5 @@
 # GL-DevOps-ProCamp
-#update: image size was redused from 891 to 198 MB !!
+#update: image size was reduсed from 891 to 198 MB !!
 
 task by GL DevOps ProCamp
 
